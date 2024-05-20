@@ -1,0 +1,66 @@
+* {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.continer {
+    top: 5vh;
+    z-index: 10;
+    position: relative;
+    height: 100vh;
+    min-height: 250px;
+    max-height: 540px;
+    padding: 15px;
+    overflow: hidden;
+    color: black;
+}
+
+.box-1 {
+    background-color: rgba(255, 255, 255, 0.715);
+    border: 1px solid rgb(200, 200, 200);
+    border-radius: 20px;
+    height: 80vh;
+    width: 65vh;
+}
+
+.box-2 {
+    background-color: rgba(255, 255, 255, 0.694);
+    border-radius: 20px;
+    height: 80vh;
+    border: 1px solid rgb(200, 200, 200);
+    width: 133vh;
+    transform: translate(51%, -100%);
+}
+
+.your-info {
+    transform: translate(5%, 0%);
+    height: 35vh;
+    width: 120vh;
+    padding: 10px;
+}
+
+.your-info p {
+    font-size: large;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: bold;
+    color: black;
+}
+
+.plane-info {
+    border: 2px solid black;
+    border-radius: 20px;
+    transform: translate(5%, 5%);
+    height: 18vh;
+    width: 120vh;
+    padding: 10px;
+}
+
+.image {
+    color: white;
+    width: 60vh;
+    height: 60vh;
+    transform: translate(3%, 0%);
+    border-radius: 50%;
+    overflow: hidden;
+    border: 2px solid rgb(23, 48, 69);
+    box-shadow: 0px 0px 40px -10px black;
+}
